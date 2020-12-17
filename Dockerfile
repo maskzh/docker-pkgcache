@@ -1,3 +1,3 @@
-FROM node:12
+FROM node:14
 RUN yarn global add pkg-fetch
-RUN pkg-fetch node12 linux x64
+RUN pkg-fetch node14 linux x64
